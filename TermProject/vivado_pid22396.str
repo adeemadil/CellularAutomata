@@ -1,0 +1,482 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 22396
+License: Customer
+
+Current time: 	Wed Dec 25 16:28:54 EET 2019
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 62 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Adeem AK
+User home directory: C:/Users/Adeem AK
+User working directory: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Adeem AK/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Adeem AK/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Adeem AK/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/vivado.log
+Vivado journal file location: 	C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/vivado.jou
+Engine tmp dir: 	C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/.Xil/Vivado-22396-DESKTOP-6KJK0V1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 554 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 88 MB (+89564kb) [00:00:21]
+// [Engine Memory]: 543 MB (+418327kb) [00:00:21]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Adeem AK\OneDrive\Desktop\Uni 2nd Year\CS 223\project\project\project\TermProject\TermProject.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject' 
+// HMemoryUtils.trashcanNow. Engine heap size: 595 MB. GUI used memory: 50 MB. Current time: 12/25/19, 4:28:56 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject' INFO: [Project 1-313] Project file moved from 'C:/Users/ABDUL MANNAN/Desktop/project/TermProject' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 714 MB (+150265kb) [00:00:32]
+// [Engine Memory]: 756 MB (+6576kb) [00:00:35]
+// [GUI Memory]: 111 MB (+19324kb) [00:00:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  5845 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 802.258 ; gain = 221.953 
+// Project name: TermProject; location: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (F, cl)
+// PAPropertyPanels.initPanels (constraints.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 8, false, false, false, false, false, true); // B (F, cl) - Double Click
+// [Engine Memory]: 794 MB (+233kb) [00:00:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 813 MB. GUI used memory: 58 MB. Current time: 12/25/19, 4:29:31 PM EET
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 834 MB (+873kb) [00:01:39]
+// PAPropertyPanels.initPanels (constraints.xdc) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  2008 ms.
+// Tcl Message: open_hw 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// HMemoryUtils.trashcanNow. Engine heap size: 836 MB. GUI used memory: 63 MB. Current time: 12/25/19, 4:30:12 PM EET
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  6441 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A27C1FA 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1968.621 ; gain = 1109.559 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,929 MB (+1103716kb) [00:01:55]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 12 seconds
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,948 MB. GUI used memory: 62 MB. Current time: 12/25/19, 4:32:11 PM EET
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cl): Launch Runs: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'cx' command handler elapsed time: 6 seconds
+dismissDialog("Launch Runs"); // f (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+setText(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit"); // am (al, bC)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (bC)
+// 'I' command handler elapsed time: 8 seconds
+// [GUI Memory]: 119 MB (+2758kb) [00:03:58]
+dismissDialog("Program Device"); // bC (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 62 MB. Current time: 12/25/19, 4:32:32 PM EET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cl): Run Synthesis: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Dec 25 16:32:39 2019] Launched synth_1... Run output will be captured here: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// [Engine Memory]: 2,029 MB (+3872kb) [00:04:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 54 MB. Current time: 12/25/19, 4:32:57 PM EET
+// Elapsed time: 17 seconds
+setText("RDIResource.SearchCommandComponent_QUICK_ACCESS", "sources", true); // OverlayTextField (K, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (cl)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 1, true); // B (F, cl) - Node
+setText("RDIResource.SearchCommandComponent_QUICK_ACCESS", "Sources"); // OverlayTextField (K, cl)
+// [GUI Memory]: 127 MB (+2488kb) [00:04:48]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), mybuttonclock : ButtonClock (ButtonClock.sv)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), mybuttonclock : ButtonClock (ButtonClock.sv)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1070 ms. Increasing delay to 3000 ms.
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), myregister : Register (Register.sv)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), myregister : Register (Register.sv)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 26 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Wed Dec 25 16:34:07 2019] Launched impl_1... Run output will be captured here: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ButtonClock.sv", 2); // k (j, cl)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Implementation Completed: addNotify
+// Elapsed time: 367 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Dec 25 16:40:46 2019] Launched impl_1... Run output will be captured here: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1631 ms.
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), mydisplay : SevenSegmentDisplay (SevenSegmentDisplay.sv)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), mydisplay : SevenSegmentDisplay (SevenSegmentDisplay.sv)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // by (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopModule.sv", 1); // k (j, cl)
+// Elapsed time: 55 seconds
+selectCodeEditor("TopModule.sv", 372, 286); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 0); // k (j, cl)
+// Elapsed time: 154 seconds
+selectCodeEditor("constraints.xdc", 146, 122); // cl (w, cl)
+// Elapsed time: 90 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h (cS, cl)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 146 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h (cS, cl)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A27C1FA 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 297 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 65 MB. Current time: 12/25/19, 5:02:57 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 61 MB. Current time: 12/25/19, 5:32:57 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/25/19, 6:02:58 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/25/19, 6:32:58 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 10:07:47 AM EET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 691 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 690 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 689 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 55076135 ms. Increasing delay to 165228405 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 691 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 690 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 55079013 ms. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/26/19, 11:08:50 AM EET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1866167 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 1:47:26 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 2:17:26 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/26/19, 2:47:26 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  355855 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6389595 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 4:56:20 PM EET
+// Elapsed time: 86595 seconds
+selectCodeEditor("constraints.xdc", 278, 113); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopModule.sv", 1); // k (j, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), myAssigner : ValueAssigner (ValueAssigner.sv)]", 3, false); // B (F, cl)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 3650 ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/26/19, 5:26:20 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 5:56:20 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 6:26:20 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  13617685 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3941 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/26/19, 10:34:17 PM EET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 13624371 ms. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/26/19, 11:04:17 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/26/19, 11:34:16 PM EET
+// Elapsed time: 23784 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ButtonClock.sv", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopModule.sv", 1); // k (j, cl)
+selectTab((HResource) null, (HResource) null, "Hardware", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Serial I/O Links", 4); // aK (aH, cl)
+selectTab((HResource) null, (HResource) null, "Serial I/O Scans", 5); // aK (aH, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/27/19, 12:04:17 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/27/19, 12:34:17 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 59 MB. Current time: 12/27/19, 1:04:17 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  3969790 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 60 MB. Current time: 12/27/19, 2:27:59 AM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  293378 ms.

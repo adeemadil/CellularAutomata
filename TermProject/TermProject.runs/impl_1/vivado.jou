@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Dec 29 18:40:30 2019
+# Process ID: 17704
+# Current directory: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1
+# Command line: vivado.exe -log TopModule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopModule.tcl -notrace
+# Log file: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1/TopModule.vdi
+# Journal file: C:/Users/Adeem AK/OneDrive/Desktop/Uni 2nd Year/CS 223/project/project/project/TermProject/TermProject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TopModule.tcl -notrace
